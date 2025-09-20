@@ -1,0 +1,9 @@
+
+pyTelegramBotAPI==4.29.1
+aiohttp==3.12.15
+
+environs==14.3.0
+
+PyAutoGUI==0.9.54
+PyScreeze==1.0.1
+pillow==11.3.0
