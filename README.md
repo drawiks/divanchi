@@ -1,13 +1,12 @@
 
 <div align="center">
-<h1>🛋️ divanchi</h1>
-<img height="20" alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11+-blue">
-<img height="20" alt="License Apache 2.0" src="https://img.shields.io/badge/license-Apache%202.0-green">
-<img height="20" alt="Status" src="https://img.shields.io/badge/status-pet--project-orange">
+    <h1>🛋️ divanchi</h1>
+    <img height="20" alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11+-blue">
+    <img height="20" alt="License Apache 2.0" src="https://img.shields.io/badge/license-Apache%202.0-green">
+    <img height="20" alt="Status" src="https://img.shields.io/badge/status-pet--project-orange">
+    <p><strong>divanchi</strong> — это telegram-бот для дистанционного управления пк</p>
+    <blockquote>сидишь на диванчике и управляешь своим пк (─‿‿─)</blockquote>
 </div>
-
-**divanchi** — это telegram-бот для дистанционного управления пк
-> сидишь на диванчике и управляешь своим пк (─‿‿─)
 
 ---
 
