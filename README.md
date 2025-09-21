@@ -1,5 +1,9 @@
 
-# 🛋️ divanchi
+<div align="center">
+<h1>🛋️ divanchi</h1>
+<img height="20" alt="Supported python versions" src="https://img.shields.io/pypi/pyversions/hikari"></a>
+<img height="20" alt="PyPI version" src="https://img.shields.io/pypi/v/hikari"></a>
+</div>
 
 **divanchi** — это telegram-бот для дистанционного управления пк
 > сидишь на диванчике и управляешь своим пк (─‿‿─)
