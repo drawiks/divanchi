@@ -31,10 +31,18 @@ divanchi/
 ```
 
 
-**бот**
+**🚀 установка**
+
+```bash
+git clone https://github.com/username/divanchi.git
+cd divanchi
+pip install -r requirements.txt
+```
+
+**🤖 настройка бота**
 - создай бота при помощи [@BotFather](https://telegram.me/BotFather)
 - укажи Bot name и Bot username
-- скопируй api ключ бота
+- cкопируй API ключ и вставь его в divanchi/config.py
 
 **
 
