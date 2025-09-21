@@ -1,5 +1,5 @@
 
-from src.app import bot
+from divanchi import bot
 from asyncio import run
 
 if __name__ == "__main__":
