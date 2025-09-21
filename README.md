@@ -28,7 +28,7 @@ divanchi/
 │
 ├── divanchi.py # --- entrypoint ---
 │
-├── .env
+├── .env # --- example ---
 │
 ├── requirements.txt
 ├── .gitignore
