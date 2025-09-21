@@ -6,7 +6,7 @@
 
 ---
 
-## 📂 структура проекта
+## **📂 структура проекта**
 
 ```bash
 divanchi/
@@ -24,14 +24,17 @@ divanchi/
 │
 ├── divanchi.py # --- entrypoint ---
 │
+├── .env
+│
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
 └── LICENSE
 ```
 
+---
 
-**🚀 установка**
+## **🚀 установка**
 
 ```bash
 git clone https://github.com/username/divanchi.git
@@ -39,10 +42,33 @@ cd divanchi
 pip install -r requirements.txt
 ```
 
-**🤖 настройка бота**
+---
+
+## **🤖 настройка бота**
 - создай бота при помощи [@BotFather](https://telegram.me/BotFather)
 - укажи Bot name и Bot username
-- cкопируй API ключ и вставь его в divanchi/config.py
+- cкопируй API ключ и вставь его в [.env](/.env)
 
-**
+## [.env](/.env)
+```dotenv
+TOKEN="ТВОЙ_ТОКЕН_БОТА"
+```
+
+---
+
+## **🧩 зависимости**
+[requirements.txt](/requirements.txt)
+```bash
+# --- telegram ---
+pyTelegramBotAPI==4.29.1
+aiohttp==3.12.15
+
+# --- config ---
+environs==14.3.0
+
+# --- pc control ---
+PyAutoGUI==0.9.54
+PyScreeze==1.0.1
+pillow==11.3.0
+```
 
