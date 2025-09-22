@@ -38,7 +38,7 @@ divanchi/
 
 ---
 
-## **🚀 установка**
+## **🛠️ установка**
 
 ```bash
 git clone https://github.com/username/divanchi.git
