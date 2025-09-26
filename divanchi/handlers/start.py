@@ -12,6 +12,15 @@ def keyboard():
     return keyboard
 
 def register(bot):
+    def restricted(func):
+        def wrapper(message, *args, **kwargs):
+            if message.from_user.id != 1792377314:
+                print("кто то пытается получить доступ!")
+                return 
+            return func(message, *args, **kwargs)
+        return wrapper
+    
     @bot.message_handler(commands=['start'])
+    @restricted
     async def start_handler(message):
         await bot.send_message(message.chat.id, "управляй пк через телеграм", reply_markup=keyboard())
